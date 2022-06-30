@@ -8,11 +8,11 @@ const ToDoBanner = () => {
     const [date, setDate] = useState(new Date());
     return (
         <div>
-            <div class="hero min-h-screen bg-base-200">
+            <div class="hero min-h-screen bg-base-100">
                 <div class="hero-content flex-col lg:flex-row">
                     <img src="https://placeimg.com/260/400/arch" class="max-w-sm rounded-lg shadow-2xl" alt='todo img' />
 
-                    <div>
+                    <div className='lg:mx-20'>
                         <DayPicker
 
                             mode="single"

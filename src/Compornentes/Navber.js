@@ -6,6 +6,7 @@ const Navber = () => {
 
     const navbermenu = <>
         <li><Link to="/">HOME</Link></li>
+        <li><Link to="/task">TASK-LIST</Link></li>
         <li><Link to="/about">ABOUT</Link></li>
         <li><Link to="/blogs">BLOGS</Link></li>
 
@@ -14,7 +15,7 @@ const Navber = () => {
 
     return (
         <div>
-            <div class="navbar bg-base-100">
+            <div class="navbar bg-base-200">
                 <div class="navbar-start">
                     <div class="dropdown">
                         <label tabindex="0" class="btn btn-ghost lg:hidden">
