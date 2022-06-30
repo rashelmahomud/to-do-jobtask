@@ -1,10 +1,10 @@
 import React from 'react';
+import ToDoBanner from './ToDoBanner';
 
 const Home = () => {
     return (
         <div>
-            <h1>hello Home!</h1>
-            <button class="bg-secondary">Button</button>
+            <ToDoBanner></ToDoBanner>
         </div>
     );
 };
