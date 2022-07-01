@@ -7,7 +7,7 @@ const ChildTask = ({ service }) => {
         if (cheack) {
 
             const {todoList} = service;
-            const url = `http://localhost:5000/complete`;
+            const url = `https://hudson-poutine-36996.herokuapp.com/complete`;
             fetch(url, {
                 method: 'POST',
                 headers: {
