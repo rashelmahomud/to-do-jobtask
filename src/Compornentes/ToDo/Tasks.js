@@ -7,7 +7,7 @@ const Tasks = () => {
 
     useEffect(() => {
 
-        fetch('http://localhost:5000/services')
+        fetch('https://hudson-poutine-36996.herokuapp.com/services')
             .then(res => res.json())
             .then(data => setServices(data))
 

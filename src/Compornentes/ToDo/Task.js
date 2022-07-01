@@ -8,7 +8,7 @@ const Task = () => {
     const { register, handleSubmit } = useForm();
 
     const onSubmit = data => {
-        const url = `http://localhost:5000/services`;
+        const url = `https://hudson-poutine-36996.herokuapp.com/services`;
         fetch(url, {
             method: 'POST',
             headers: {
