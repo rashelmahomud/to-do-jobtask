@@ -5,6 +5,7 @@ import Footer from "./Compornentes/Footer";
 import Home from "./Compornentes/Home";
 import Navber from "./Compornentes/Navber";
 import Task from "./Compornentes/ToDo/Task";
+import Blogs from "./Compornentes/Blogs";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/home" element={<Home></Home>} />
         <Route path="/task" element={<Task></Task>} />
         <Route path="/about" element={<About></About>} />
+        <Route path="/blogs" element={<Blogs></Blogs>} />
       </Routes>
       <Footer></Footer>
 
