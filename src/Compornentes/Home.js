@@ -7,6 +7,7 @@ const Home = () => {
         <div>
             <ToDoBanner></ToDoBanner>
             <TodoService></TodoService>
+           
         </div>
     );
 };
